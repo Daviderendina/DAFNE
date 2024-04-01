@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T17:50:49.448Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="7eAk87SqRcb06cQB0O8q" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T17:54:56.031Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="NbunY2eiigSi0XBT7ORX" version="24.2.1" type="github">
   <diagram name="Pagina-1" id="jJnESbs7p5enPKDtaaTV">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -62,7 +62,7 @@
         <mxCell id="q3DxBHmQQCRVyKxhGtg1-22" value="CATALOG" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="560" y="386" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="q3DxBHmQQCRVyKxhGtg1-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Missing&lt;/h1&gt;&lt;div&gt;1) Promozioni/sconti&lt;br&gt;2) Voucher&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+        <mxCell id="q3DxBHmQQCRVyKxhGtg1-24" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Missing&lt;/h1&gt;&lt;div&gt;1) Promozioni/sconti&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
           <mxGeometry width="180" height="120" as="geometry" />
         </mxCell>
         <mxCell id="q3DxBHmQQCRVyKxhGtg1-25" value="PAYMENT" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
