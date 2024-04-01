@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T17:04:08.520Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" version="24.2.1" etag="jmXJ3JVqyIZ3SMpUCQDO" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T17:31:57.621Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="tGrBdjhQpnW-iEG-ozvF" version="24.2.1" type="github">
   <diagram name="Pagina-1" id="9Rs3LMoLaEdMYnE599Kh">
-    <mxGraphModel>
+    <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-1" value="CUSTOMER" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="50" y="317" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-2" value="&lt;div&gt;USER&amp;nbsp;&lt;/div&gt;&lt;div&gt;(addetto parco)&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="50" y="160" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="QFHx8bbdNAbLTLlzf1MT-4" target="QFHx8bbdNAbLTLlzf1MT-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-4" value="ADMIN" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="50" y="40" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-6" value="CRUD sugli USER" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="160" y="45" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="QFHx8bbdNAbLTLlzf1MT-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="130" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-9" value="Visualizza stastistiche" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="304" y="40" width="150" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-10" value="CRUD caschi" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="165" y="165" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-11" value="CRUD clienti" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="304" y="170" width="110" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-12" value="Crea un nuovo ordine" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="430" y="171" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-13" value="&lt;div&gt;Chiude un ordine ed&amp;nbsp;&lt;/div&gt;&lt;div&gt;effettua il pagamento&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="315" y="230" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-14" value="Effettua il briefing" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="160" y="230" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-22" value="Gestisce listino" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="470" y="45" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-24" value="Stampa liberatorie" style="ellipse;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="610" y="171" width="160" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="QFHx8bbdNAbLTLlzf1MT-25" value="Si registra in autonomia (tramite smartphone)" style="ellipse;whiteSpace=wrap;html=1;fillColor=#fad9d5;strokeColor=#ae4132;" vertex="1" parent="1">
+          <mxGeometry x="160" y="330" width="130" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
