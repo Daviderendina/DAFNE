@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-04-01T00:53:40.185Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="wfvqjcRhI8u3_3ZaKlH-" version="24.2.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-04-01T00:57:12.202Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:124.0) Gecko/20100101 Firefox/124.0" etag="tIxUH-LLSd1FU93mx3K2" version="24.2.1" type="github">
   <diagram name="Pagina-1" id="eaB3EaWU8Z2Ssii__PD0">
     <mxGraphModel dx="1050" dy="566" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -116,6 +116,9 @@
           <mxGeometry x="0.238" y="-5" relative="1" as="geometry">
             <mxPoint x="47" y="-18" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="XtGU4JbTBbichS4UjxDC-34" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Razionale&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- Non volevo avere processi bloccanti, perché per aspettare la lettura del device avrei dovuto bloccare FE e CORE inutilmente&lt;br&gt;&lt;br&gt;- Avevo pensato a una coda che notifica subito entrambi, ma in questo caso non avrei il numero del casco sul FE, e servirebbe una nuova chiamata verso il core per recuperarmela -&amp;gt; analizzare se ha senso far sì che il device acceda all&#39;equipment, ma in questo caso si perde la generalizzazione del componente&lt;br&gt;&lt;br&gt;- Questa soluzione permette al FE di fare N chiamate in contemporanea, per poi avere comodamente le risposte quando tutto è pronto&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="199" y="440" width="430" height="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
